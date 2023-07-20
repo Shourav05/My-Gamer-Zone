@@ -14,8 +14,8 @@
 
 /* navbar section */
 .logo-container img {
-    width: 86.041px;
-    height: 40px;
+    /* width: 86.041px;
+    height: 40px; */
 }
 
 .logo-container {
@@ -33,6 +33,7 @@
 }
 .menubar ul {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 32px;
 }
@@ -45,19 +46,19 @@
     display: flex;
     gap: 32px;
     color: #3C354F;
-    text-align: center;
     font-size: 1.1rem;
     font-weight: 500;
 }
 
 .menu-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     width: 262px;
     height: 56px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
 }
 .follow-us{
     padding-left: 24px;
@@ -67,4 +68,13 @@
 }
 
 
+
+@media screen and (max-width: 576px) {
+    nav,
+    nav ul{
+        flex-direction: column;
+    }
+    
+    
+}
 
